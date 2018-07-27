@@ -86,7 +86,7 @@
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                 </button>
-                                <a class="navbar-brand custom_navbar-brand" href="#"><img src="{{ asset('rawThemes/greenFair/img/logo.png') }}" alt=""></a>
+                                <a class="navbar-brand custom_navbar-brand" href="#"><img src="{{ asset('rawThemes/greenFair/img/logo.png') }}" alt="Home"></a>
                             </div>
                             <!--End of navbar-header-->
 
@@ -131,10 +131,10 @@
                             <img src="{{ asset('rawThemes/greenFair/img/img1.jpg') }}" alt="...">
                             <div class="carousel-caption">
                                 <div class="slider_text">
-                                    <h3>Protect</h3>
-                                    <h2>nature the environment</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <a href="" class="custom_btn">Read  More</a>
+                                    <h3>Prosopis Juliflora</h3>
+                                    <h2>Image Classifier</h2>
+                                    <p>Identification of <b>Mesquite</b> <i>(Prosopis Juliflora)</i> using <b>Image Processing</b> techniques.</p>
+                                    <a href="" class="custom_btn">Log In</a>
                                 </div>
                             </div>
                         </div>
@@ -146,9 +146,9 @@
                             <div class="carousel-caption">
                                 <div class="slider_text">
                                     <h3>Protect</h3>
-                                    <h2>nature the environment</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <a href="" class="custom_btn">Read  More</a>
+                                    <h2>the environment</h2>
+                                    <p>Prosopis Juliflora is known for making harmful imbalances in the ecosystem.</p>
+                                    <a href="" class="custom_btn">Log In</a>
                                 </div>
                             </div>
                         </div>
@@ -159,10 +159,10 @@
                             <img src="{{ asset('rawThemes/greenFair/img/img3.jpg') }}" alt="...">
                             <div class="carousel-caption">
                                 <div class="slider_text">
-                                    <h3>Protect</h3>
-                                    <h2>nature the environment</h2>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    <a href="" class="custom_btn">Read  More</a>
+                                    <h3>A Helper Tool</h3>
+                                    <h2>For Botanists, Surveyors and the Common Man</h2>
+                                    <p>Just Click a picture, and upload it!</p>
+                                    <a href="" class="custom_btn">Log In</a>
                                 </div>
                             </div>
                         </div>
@@ -182,8 +182,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="wel_header">
-                            <h2>welcome to green fair</h2>
-                            <p>Our Green Fire Organization is one of the non profit organization near you. Get our services like</p>
+                            <h2>welcome to Julio-Prosopa</h2>
+                            <p>An interdisciplinary research project work that uses <strong>Digital Image Processing</strong> and <strong>Botany</strong> for the identification of <i><strong>Prosopis Juliflora</strong></i>. This project provides the following services -</p>
                         </div>
                     </div>
                 </div>
@@ -196,8 +196,8 @@
                                     <div class="welcome_icon">
                                         <i class="fa fa-leaf"></i>
                                     </div>
-                                    <h4>eco system</h4>
-                                    <p>Lorem ipsum dolor sit amet, eu qui modo expetendis reformidans ex sit set appetere sententiae seo eum in simul homero.</p>
+                                    <h4>Dataset Creation</h4>
+                                    <p>Just <a href="" class="text-success"><strong><u>Sign Up</u></strong></a> and start uploading the image with the related information, which will be stored in the database, further available for download for your work.</p>
                                 </div>
                             </div>
                         </div>
@@ -210,8 +210,8 @@
                                     <div class="welcome_icon">
                                         <i class="fa fa-refresh"></i>
                                     </div>
-                                    <h4>recycling</h4>
-                                    <p>Lorem ipsum dolor sit amet, eu qui modo expetendis reformidans ex sit set appetere sententiae seo eum in simul homero.</p>
+                                    <h4>Feature Extraction</h4>
+                                    <p>Various features are extracted from the images, which are broadly categorized into Texture Features and Geometrical features.</p>
                                 </div>
                             </div>
                         </div>
@@ -224,8 +224,8 @@
                                     <div class="welcome_icon">
                                         <i class="fa fa-tint"></i>
                                     </div>
-                                    <h4>water refine</h4>
-                                    <p>Lorem ipsum dolor sit amet, eu qui modo expetendis reformidans ex sit set appetere sententiae seo eum in simul homero.</p>
+                                    <h4>Ensembled Analysis</h4>
+                                    <p>Classification is done using Multiple Classifiers for better results having lesser bias and variance at the same time. A detailed report of the classification is given for every classification.</p>
                                 </div>
                             </div>
                         </div>
@@ -238,8 +238,8 @@
                                     <div class="welcome_icon">
                                         <i class="fa fa-cog"></i>
                                     </div>
-                                    <h4>solar system</h4>
-                                    <p>Lorem ipsum dolor sit amet, eu qui modo expetendis reformidans ex sit set appetere sententiae seo eum in simul homero.</p>
+                                    <h4>Classifier Re-training</h4>
+                                    <p>Classifiers can be retrained from the dataset that is collected. This is done by the admin whenever necessary as the dataset is evergrowing.</p>
                                 </div>
                             </div>
                         </div>
@@ -260,14 +260,14 @@
                 <div class="row vol_area">
                     <div class="col-md-8">
                         <div class="volunteer_content">
-                            <h3>Become a <span>Volunteer</span></h3>
-                            <p>Join Our Team And Help the world. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur.</p>
+                            <h3>Become a <span>Member</span></h3>
+                            <p>Join Our Team And Help the world. You can join us as a general user to upload your pictures of the plants that you have. This will help the dataset grow for the better learning and more accurate results.</p>
                         </div>
                     </div>
                     <!--End of col-md-8-->
                     <div class="col-md-3 col-md-offset-1">
                         <div class="join_us">
-                            <a href="" class="vol_cust_btn">join us</a>
+                            <a href="" class="vol_cust_btn">Sign Up</a>
                         </div>
                     </div>
                     <!--End of col-md-3-->
@@ -285,7 +285,7 @@
             <div class="col-md-12">
                 <div class="portfolio_title">
                     <h2>our latest work</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+                    <p>Various Images are already available for feature extraction. The feature Set can be downloaded from your account that can be used for your work.</p>
                 </div>
             </div>
             <!--End of col-md-2-->
@@ -295,19 +295,19 @@
                         <form action="/">
                             <ul id="portfolio_menu" class="menu portfolio_custom_menu">
                                 <li>
-                                    <button data-filter="*" class="my_btn btn_active">Show All</button>
+                                    <button data-filter="*" class="my_btn btn_active">Show All Aspects</button>
                                 </li>
                                 <li>
-                                    <button data-filter=".blue, .black, .green" class="my_btn">environment</button>
+                                    <button data-filter=".blue, .black, .green" class="my_btn">Field Study & survey</button>
                                 </li>
                                 <li>
-                                    <button data-filter=".red, .green" class="my_btn">climate</button>
+                                    <button data-filter=".red, .green" class="my_btn">Feature Extraction</button>
                                 </li>
                                 <li>
-                                    <button data-filter=".blue, .yellow, .black" class="my_btn">photography</button>
+                                    <button data-filter=".blue, .yellow, .black" class="my_btn">Data Preprocessing</button>
                                 </li>
                                 <li>
-                                    <button data-filter=".black" class="my_btn">species</button>
+                                    <button data-filter=".black" class="my_btn">Classification &amp; Results</button>
                                     <!--
                                 </li>
                                 <li>
