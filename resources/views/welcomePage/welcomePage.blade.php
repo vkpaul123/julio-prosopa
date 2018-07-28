@@ -527,7 +527,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="designer">
-                            <p>A Research By <a href="https://github.com/vkpaul123"><strong>Vikramsinh Dantkale</strong></a></p>
+                            <p>A Research Project By <a href="https://github.com/vkpaul123"><strong>Vikramsinh Dantkale</strong></a></p>
                         </div>
                     </div>
                 </div>
@@ -540,7 +540,7 @@
 
 
         <!--Scroll to top-->
-        <a href="#" id="back-to-top" title="Back to top">&uarr;</a>
+        <a href="#" id="back-to-top" title="Back to top"><strong><i class="fa fa-arrow-up"></i></strong></a>
         <!--End of Scroll to top-->
 
 
