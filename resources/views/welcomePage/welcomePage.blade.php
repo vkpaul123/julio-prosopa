@@ -134,7 +134,7 @@
                                     <h3>Prosopis Juliflora</h3>
                                     <h2>Image Classifier</h2>
                                     <p>Identification of <b>Mesquite</b> <i>(Prosopis Juliflora)</i> using <b>Image Processing</b> techniques.</p>
-                                    <a href="" class="custom_btn">Log In</a>
+                                    <a href="{{ route('login') }}" class="custom_btn">Log In</a>
                                 </div>
                             </div>
                         </div>
@@ -148,7 +148,7 @@
                                     <h3>Protect</h3>
                                     <h2>the environment</h2>
                                     <p>Prosopis Juliflora is known for making harmful imbalances in the ecosystem.</p>
-                                    <a href="" class="custom_btn">Log In</a>
+                                    <a href="{{ route('login') }}" class="custom_btn">Log In</a>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                                     <h3>A Helper Tool</h3>
                                     <h2>For Botanists, Surveyors and the Common Man</h2>
                                     <p>Just Click a picture, and upload it!</p>
-                                    <a href="" class="custom_btn">Log In</a>
+                                    <a href="{{ route('login') }}" class="custom_btn">Log In</a>
                                 </div>
                             </div>
                         </div>
@@ -267,7 +267,7 @@
                     <!--End of col-md-8-->
                     <div class="col-md-3 col-md-offset-1">
                         <div class="join_us">
-                            <a href="" class="vol_cust_btn">Sign Up</a>
+                            <a href="{{ route('register') }}" class="vol_cust_btn">Sign Up</a>
                         </div>
                     </div>
                     <!--End of col-md-3-->

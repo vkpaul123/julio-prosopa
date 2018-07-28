@@ -61,6 +61,20 @@
                             </div>
                         </div>
 
+                        <div class="form-group row">
+                            <label for="usertype" class="col-md-4 col-form-label text-md-right">{{ __('User Type') }}</label>
+
+                            <div class="col-md-6">
+                                <input id="usertype" class="form-control{{ $errors->has('usertype') ? ' is-invalid' : '' }}" name="usertype" value="{{ old('usertype') }}" required>
+
+                                @if ($errors->has('usertype'))
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $errors->first('usertype') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
                         <div class="form-group row mb-0">
                             <div class="col-md-6 offset-md-4">
                                 <button type="submit" class="btn btn-primary">
