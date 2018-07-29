@@ -4,7 +4,7 @@
     <!-- mini logo for sidebar mini 50x50 pixels -->
     <span class="logo-mini" style="color: #333;">J-<b>P</b></span>
     <!-- logo for regular state and mobile devices -->
-    <span class="logo-lg"><center><img src="{{ asset('imgs/logo_big.png') }}" alt="logo" width="175"></center></span>
+    <span class="logo-lg"><img src="{{ asset('imgs/logo_big.png') }}" alt="logo" width="175"></span>
   </a>
   <!-- Header Navbar: style can be found in header.less -->
   <nav class="navbar navbar-static-top">
