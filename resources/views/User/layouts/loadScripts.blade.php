@@ -1,5 +1,9 @@
+{{-- Vue.js --}}
+<script src="{{ asset('js/app.js') }}"></script>
 <!-- jQuery 3 -->
 <script src="{{ @asset('rawThemes/adminLTE/bower_components/jquery/dist/jquery.min.js') }}"></script>
+
+
 <!-- jQuery UI 1.11.4 -->
 <script src="{{ @asset('rawThemes/adminLTE/bower_components/jquery-ui/jquery-ui.min.js') }}"></script>
 <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
@@ -38,6 +42,18 @@
 
 <!--Back To Top-->
 <script src="{{ asset('rawThemes/greenFair/js/backtotop.js') }}"></script>
+
+<script src="{{asset('rawThemes/adminLTE/plugins/iCheck/icheck.min.js')}}"></script>
+<script>
+  $(function () {
+    $('input').iCheck({
+      checkboxClass: 'icheckbox_square-green',
+      radioClass: 'iradio_square-green',
+      increaseArea: '20%' // optional
+    });
+  });
+</script>
+
 
 @section('pageSpecificLoadScripts')
 	@show

@@ -16,7 +16,7 @@
     <ul class="sidebar-menu" data-widget="tree" style="text-align: left;">
       <li class="header">MAIN NAVIGATION</li>
       <li @yield('sideBarActivator_Home')><a href="{{ route('home') }}"><i class="fa fa-home text-success"></i> <span>Home</span></a></li>
-      <li @yield('sideBarActivator_Profile')><a href=""><i class="fa fa-user"></i> <span>Profile</span></a></li>
+      <li @yield('sideBarActivator_Profile')><a href="{{ route('userProfile') }}"><i class="fa fa-user"></i> <span>Profile</span></a></li>
       <li><a href="{{ route('logout') }}"
         onclick="event.preventDefault();
         document.getElementById('logout-form').submit();"

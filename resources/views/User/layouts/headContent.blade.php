@@ -1,8 +1,12 @@
-<meta charset="utf-8">
+{{-- <meta charset="utf-8"> --}}
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>HighWinds - @yield('title')</title>
+<title>Julio-Prosopa - @yield('title')</title>
 <!-- Tell the browser to be responsive to screen width -->
 <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+{{-- Vue.js --}}
+{{-- <link rel="stylesheet" href="{{ asset('css/app.css') }}"> --}}
+
 <!-- Bootstrap 3.3.7 -->
 <link rel="stylesheet" href="{{ @asset('rawThemes/adminLTE/bower_components/bootstrap/dist/css/bootstrap.min.css') }}">
 <!-- Font Awesome -->
@@ -11,8 +15,7 @@
 <link rel="stylesheet" href="{{ @asset('rawThemes/adminLTE/bower_components/Ionicons/css/ionicons.min.css') }}">
 <!-- Theme style -->
 <link rel="stylesheet" href="{{ @asset('rawThemes/adminLTE/dist/css/AdminLTE.css') }}">
-<!-- AdminLTE Skins. Choose a skin from the css/skins
-     folder instead of downloading all of them to reduce the load. -->
+<!-- AdminLTE Skins. Choose a skin from the css/skins folder instead of downloading all of them to reduce the load. -->
 <link rel="stylesheet" href="{{ @asset('rawThemes/adminLTE/dist/css/skins/_all-skins.min.css') }}">
 <!-- Morris chart -->
 <link rel="stylesheet" href="{{ @asset('rawThemes/adminLTE/bower_components/morris.js/morris.css') }}">
@@ -27,12 +30,15 @@
 
 <link rel="stylesheet" href="{{ asset('rawThemes/greenFair/css/isotope/style.css') }}">
 
+<link rel="stylesheet" href="{{asset('rawThemes/adminLTE/plugins/iCheck/square/green.css')}}">
+
+
 <!--Main Stylesheet-->
 <link href="{{ asset('rawThemes/greenFair/css/style.css') }}" rel="stylesheet">
 <!--Responsive Framework-->
 <link href="{{ asset('rawThemes/greenFair/css/responsive.css') }}" rel="stylesheet">
 
-
+<meta name="csrf-token" content="{{ csrf_token() }}">
 
 <!-- Modernizer Script for old Browsers -->
 {{-- <script src="{{ @asset('rawThemes/brandi/js/modernizr-2.6.2.min.js')}}"></script> --}}
@@ -51,4 +57,4 @@
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'>
 
 @section('pageSpecificHeadContent')
-  @show
+@show

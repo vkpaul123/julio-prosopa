@@ -1,7 +1,7 @@
 <section id="footer">
 	<div class="container">
 		<div class="row text-center">
-			<div class="col-md-4">
+			<div class="col-md-4 col-md-offset-4">
 				<div class="copyright">
 					<p>&copy; 2018 - <span><a href="/"><strong>Julio-Prosopa.com</strong></a></span></p>
 				</div>
