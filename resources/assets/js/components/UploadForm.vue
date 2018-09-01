@@ -19,11 +19,8 @@
 						<div class="row">
 							<div>
 								<div>
-
 									<!-- {{ csrf_field() }} -->
 									<input type="hidden" value="leaf" name="image_type" id="image_type">
-
-									
 
 									<!-- Custom Tabs -->
 									<div class="nav-tabs-custom">

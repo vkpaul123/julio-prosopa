@@ -10,10 +10,12 @@ require('./bootstrap');
 window.Vue = require('vue');
 
 import Toasted from 'vue-toasted';
-
 Vue.use(Toasted, {
 	iconPack : 'fontawesome'
 });
+
+import VueCroppie from 'vue-croppie';
+Vue.use(VueCroppie);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
@@ -27,5 +29,7 @@ import UploadForm from './components/UploadForm';
 
 const app = new Vue({
     el: '#app',
-    components:{UploadForm}
+    components: {
+    	UploadForm
+    }
 });
